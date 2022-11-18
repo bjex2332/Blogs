@@ -1,7 +1,7 @@
 {
-  "name": "workout-app",
+  "name": "blog-app",
   "version": "1.0.0",
-  "description": "Workout Application",
+  "description": "blog Application",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
     "seed": "node seeds/seed.js"
   },
   "keywords": [],
-  "author": "Kyle Vance, Trevor Jex, Brandon Jex, James Jabar",
+  "author": "Brandon Jex",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
@@ -22,13 +22,6 @@
     "mysql2": "^2.2.5",
     "passport": "^0.6.0",
     "sequelize": "^6.3.5"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kyle-vance/Project-2.git"
-  },
-  "bugs": {
-    "url": "https://github.com/kyle-vance/Project-2/issues"
-  },
-  "homepage": "https://github.com/kyle-vance/Project-2#readme"
+  }
+  
 }
